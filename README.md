@@ -55,7 +55,7 @@ It will have a collection of code snippets and tutorials all mashed together!
    2.14 [dictionary](#2.14) 
    2.15 [Functions](#2.15)    
    2.16 [Functions, parameters](#2.16)  
-   2.17 [MINI-PROJECT 1 TIK-TAK-TOE](#2.17)
+   2.17 [MINI-PROJECT 1 TIC-TAC-TOE](#2.17)
 3. [Python intermediate]()  
     3.1 [Global vs local]()  
     3.2 [Writing to file]()  
