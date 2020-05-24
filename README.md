@@ -2,7 +2,8 @@
 
 Author: Chew Hong Jun  
 
-This repository is an introduction to python with a focus on _python syntax_ and _Programming logic_ which is similar for all languages !  
+This repository is an introduction to python with a focus on _python syntax_ and _Programming logic_   
+which is similar for all languages !  
 It will have a collection of code snippets and tutorials all mashed together!       
 
 ------
@@ -35,6 +36,7 @@ It will have a collection of code snippets and tutorials all mashed together!
     cd MathewSumWorkspace
     ls
     ```
+---
 ## Table Of Contents <a name="top"></a>
 1.[Week1 Question](#wk1)
 
@@ -367,6 +369,9 @@ Its raining close the windows
 ---
 
 ## Question of the week <a name="wk1"></a>
+*Your goal is not to finish all the questions, but to understand how does variables, math operators and the while loop works. Do not be pressured to do all of it!   
+I would rather you take your time and think about the questions than how to solve it :)  
+if you finish and look for more stuff to do youtube is your friend*
 ```
 1. Take in 10 user input(integers), and print the average on screen
 
