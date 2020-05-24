@@ -17,7 +17,7 @@ It will have a collection of code snippets and tutorials all mashed together!
 - git bash (optional)
   
   - if you have installed it correctly  
-    [ CTRL-SHIFT-` ] to launch bash terminal
+    [ CTRL-SHIFT-` ] to launch bash terminal in vs code
   
     ```python
     hongjun@XPS9570:~/Gits/IntroductionToProgramming$ python3 --version
@@ -125,20 +125,24 @@ We will be going throught python and basic computing logic on how to write basic
 
 **Key Learning Resources**
 
-Useful tutorials: <https://www.tutorialspoint.com/python_pandas/python_pandas_introduction.htm>
-<https://pythonprogramming.net/introduction-learn-python-3-tutorials/>
-<https://www.youtube.com/channel/UCwRXb5dUK4cvsHbx-rGzSgw>
-<https://algo.is/>
+Useful tutorials: 
+<https://pythonprogramming.net/>  
+<https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ>  
+<https://www.youtube.com/channel/UCZUyPT9DkJWmS_DzdOi7RIA>  
+<https://www.geeksforgeeks.org/python-programming-language/>  
+<https://algo.is/>  
 
 **Credits:**
 
 A lot of these notes I'm adapting from 
 
-<https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html>
+<https://pythonprogramming.net/>  
+<https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ>  
+<https://www.youtube.com/channel/UCZUyPT9DkJWmS_DzdOi7RIA>  
+<https://www.geeksforgeeks.org/python-programming-language/>  
+<https://www.tutorialspoint.com/>
+<https://algo.is/>  
 
-<https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python>
-
-<https://www.tutorialspoint.com/python_pandas/python_pandas_introduction.htm>
 
 ---
 
@@ -371,7 +375,7 @@ Its raining close the windows
 ## Question of the week <a name="wk1"></a>
 *Your goal is not to finish all the questions, but to understand how does variables, math operators and the while loop works. Do not be pressured to do all of it!   
 I would rather you take your time and think about the questions than how to solve it :)  
-if you finish and look for more stuff to do youtube is your friend*
+if you have finished and are looking for more stuff to do youtube is your friend*
 ```
 1. Take in 10 user input(integers), and print the average on screen
 
