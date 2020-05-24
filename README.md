@@ -1,4 +1,4 @@
-# Pandas Basics
+# Python Basics
 
 Author: Chew Hong Jun  
 
@@ -128,7 +128,7 @@ We will be going throught python and basic computing logic on how to write basic
 
 **Key Learning Resources**
 
-Useful tutorials: 
+Useful tutorials:   
 <https://pythonprogramming.net/>  
 <https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ>  
 <https://www.youtube.com/channel/UCZUyPT9DkJWmS_DzdOi7RIA>  
@@ -137,8 +137,7 @@ Useful tutorials:
 
 **Credits:**
 
-A lot of these notes I'm adapting from 
-
+A lot of these notes I'm adapting from:  
 <https://pythonprogramming.net/>  
 <https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ>  
 <https://www.youtube.com/channel/UCZUyPT9DkJWmS_DzdOi7RIA>  
@@ -201,7 +200,7 @@ What is going on here?
 print("Hi" + "there")
 Hithere
 print("Hi" + " there")
-Hithere
+Hi there
 print("Hi" * 5)
 HiHiHiHiHi
 
@@ -261,7 +260,11 @@ print(5.0*2)
 [go to top](#top)
 
 ---
-### 2.3 variable <a name="2.3"></a>
+### 2.3 Variables <a name="2.3"></a>
+
+Variables are used to store data lets try it out
+
+additional videos:<https://www.youtube.com/watch?v=cQT33yu9pY8>
 
 PEP8:
 ```
