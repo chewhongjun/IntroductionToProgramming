@@ -36,6 +36,7 @@ It will have a collection of code snippets and tutorials all mashed together!
     ls
     ```
 ## Table Of Contents <a name="top"></a>
+1.[Week1 Question](#wk1)
 
 1. [Introduction](#1)    
 2. [Python Basics](#2)    
@@ -280,6 +281,19 @@ my-var = "John"
 my var = "John"
 ```
 
+**Taking user input**
+
+We can take in a user input and store them into a variable  
+Similiar to math it works right to left  
+let's take a look at this example
+
+```python
+myName=input("Enter your name: ")
+print(myName)
+
+Enter your name: Jay
+Jay
+```
 **Try It Out**
 
 ```
@@ -304,7 +318,96 @@ x,y=(1,2)
 print(x)
 print(y)
 
+>1
+>2
+```
+### 2.4 while loop <a name="2.4"></a>
+
+It's not easy to explain how it works, but looking at the example it will make more sense!
+
+
+While the condition variable is less than 10, we will print the condition variable out. After printing out the condition, we will add 1 to the current condition. 
+
+The condition is a "counter". We just want to count 1 for every iteration and eventually stop at our limit
+```python
+condition=1
+while condition < 10:
+    print(condition)
+    condition = condition + 1
+
 1
 2
+3
+4
+5
+6
+7
+8
+9
 ```
 
+**Lets see how can this be used in real life**  
+Assuming we had something built to detect weather   
+The loop would continue running while it was raining outside. When the rain stopped, the loop would cease.
+
+This is an example of an infinite loop, ctrl-c to exit
+```python
+isRaining = True
+while(isRaining):
+    print("Its raining close the windows")
+
+Its raining close the windows
+Its raining close the windows
+Its raining close the windows
+Its raining close the windows
+Its raining close the windows
+...
+...
+```
+---
+
+## Question of the week <a name="wk1"></a>
+```
+1. Take in 10 user input(integers), and print the average on screen
+
+2. Take user input(integer) until 'q' has been entered, print in this format  
+ __integers has been entered, with an average value of __, and their product is __.  
+
+    Example:
+    user input:1
+    user input:2
+    user input:3
+    user input:q
+    3 integers has been entered, with an average value of 2, and their product is 6  
+
+3. Using a while loop print
+    *
+    **
+    ***
+    ****
+4. Using a while loop print
+    *****
+    ****
+    ***
+    **
+    *
+5. Do questions 3-4 but allow user input
+
+    Example:
+    user input:3
+    ***
+    **
+    *
+
+Additional Hard Question: Make a christmas tree 
+
+       *       
+      ***      
+     *****     
+    *******    
+   *********   
+  ***********  
+ ************* 
+***************
+    \====/    
+```
