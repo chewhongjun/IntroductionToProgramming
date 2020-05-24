@@ -28,7 +28,7 @@ It will have a collection of code snippets and tutorials all mashed together!
     Python 3.7.6
     ```
 ### Creating Your Own Workspace
-- [ CTRL-SHIFT-` ] to launch bash terminal
+- [ CTRL-SHIFT-` ] to launch bash terminal in vs code
     - terminal commands 
     ```bash
     mkdir MathewSumWorkspace
@@ -49,10 +49,10 @@ It will have a collection of code snippets and tutorials all mashed together!
    2.8 [if-elif-else](#2.8)   
    2.9 [List and tuples](#2.9)  
    2.10 [List Manipulation](#2.10)  
-   2.11 [Multi-dimension list](#2.11) 
+   2.11 [Multi-dimension list](#2.11)   
    2.12 [try-except](#2.12)  
-   2.13 [multi-line print](#2.13)  
-   2.14 [dictionary](#2.14) 
+   2.13 [Multi-line print](#2.13)  
+   2.14 [Dictionary](#2.14)   
    2.15 [Functions](#2.15)    
    2.16 [Functions, parameters](#2.16)  
    2.17 [MINI-PROJECT 1 TIC-TAC-TOE](#2.17)
@@ -125,9 +125,7 @@ We will be going throught python and basic computing logic on how to write basic
 Useful tutorials: <https://www.tutorialspoint.com/python_pandas/python_pandas_introduction.htm>
 <https://pythonprogramming.net/introduction-learn-python-3-tutorials/>
 <https://www.youtube.com/channel/UCwRXb5dUK4cvsHbx-rGzSgw>
-
-
----
+<https://algo.is/>
 
 **Credits:**
 
@@ -138,3 +136,175 @@ A lot of these notes I'm adapting from
 <https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python>
 
 <https://www.tutorialspoint.com/python_pandas/python_pandas_introduction.htm>
+
+---
+
+## 2. Python Basics <a name="2"></a>
+
+### 2.1 Print Function <a name="2.1"></a>
+[go to top](#top)
+
+
+Note that print() is built-in function of python.
+
+```
+print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+Print objects to the text stream file, separated by sep and followed by end. sep, end, file and flush, if present, must be given as keyword arguments.
+
+All non-keyword arguments are converted to strings like str() does and written to the stream, separated by sep and followed by end. Both sep and end must be strings; they can also be None, which means to use the default values. If no objects are given, print() will just write end.
+
+The file argument must be an object with a write(string) method; if it is not present or None, sys.stdout will be used. Since printed arguments are converted to text strings, print() cannot be used with binary mode file objects. For these, use file.write(...) instead.
+```
+<https://docs.python.org/3/library/functions.html#print>  
+**The print function is a fundamental function in the python**. It's one of the most commonly manipulated in python for command line applications.
+It's okay if you dont understand the above documentation we will go throught it in a short while!
+
+**Lets try it out**
+```python
+print("Hello World!")
+
+#Or
+
+def main():
+    print("Hello World!")
+
+if __name__ == "__main__":
+    main()
+
+
+tutorial1/helloworld.py
+```
+
+What is going on here?
+- arguments are parsed in
+- coverted into strings
+- shown in sys.out
+
+**Try It Out**
+
+```
+1. Print your name and your age
+```
+
+**Additional points**
+```
+print("Hi" + "there")
+Hithere
+print("Hi" + " there")
+Hithere
+print("Hi" * 5)
+HiHiHiHiHi
+
+print("Hi" + 5)
+  File "/home/hongjun/Gits/IntroductionToProgramming/Tutorial1/helloworld.py", line 11, in <module>
+    print("Hi" + 5)
+TypeError: can only concatenate str (not "int") to str
+
+print("Hi" + str(5))
+Hi5
+
+print(6+7)
+13
+
+```
+[go to top](#top)
+
+---
+### 2.2 math <a name="2.2"></a>
+You have the basic math operators(+, -, *, %, /)  
+Operator precedence applies   
+```python
+print(5+2)
+print(5-3)
+print(5%2)
+print(5*2)
+print(2*2+1)
+print(2*(2+1))
+print(4**4)
+
+7
+2
+1
+10
+5
+6
+256
+```
+
+Float(decimal) vs Integers(whole numbers)  
+- As a rule of thumb floats have a higher rank that  intergers
+- As a result floatt * interger = float
+```python
+print(type(5.0))
+print(type(5))
+
+<class 'float'>
+<class 'int'>
+
+print(5.0+2)
+print(5.0*2)
+
+7.0
+10.0
+``` 
+
+[go to top](#top)
+
+---
+### 2.3 variable <a name="2.3"></a>
+
+PEP8:
+```
+A variable name must start with a letter or the underscore character
+A variable name cannot start with a number
+A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+Variable names are case-sensitive (age, Age and AGE are three different variables)
+```
+
+* I perfer camel casing an example would be (phoneNumber, homeAddress)
+* try to make your variable short and meaningful
+* avoid variable naming (x,y,z) good in math but bad is programming
+
+```python
+#Legal variable names:
+myvar = "John"     
+my_var = "John"     //Acceptable
+_my_var = "John"
+myVar = "John"      //Acceptable
+MYVAR = "John"      //Acceptable for constants
+myvar2 = "John"
+
+#Illegal variable names:
+2myvar = "John"
+my-var = "John"
+my var = "John"
+```
+
+**Try It Out**
+
+```
+Using variables
+1. Print your name and your age
+2. Your favourite food and it's location
+```
+
+**Additional Points**
+```python
+myName = "jay"
+myFood = "fish fillet"
+print(myName + " LOVES " +myFood)
+
+>jay LOVES fish fillet
+
+print(myName + " LOVES " +myFood)
+
+>jay LOVES fish filletfish filletfish filletfish filletfish fillet
+
+x,y=(1,2)
+print(x)
+print(y)
+
+1
+2
+```
+
