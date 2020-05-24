@@ -123,6 +123,9 @@ We will be going throught python and basic computing logic on how to write basic
 - algorithms
 - program design
 
+[Introductory video](https://www.youtube.com/watch?v=Y8Tko2YC5hA)
+
+
 **Key Learning Resources**
 
 Useful tutorials: 
