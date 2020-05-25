@@ -322,7 +322,7 @@ print(myName + " LOVES " +myFood)
 
 >jay LOVES fish fillet
 
-print(myName + " LOVES " +myFood)
+print(myName + " LOVES " +myFood*5)
 
 >jay LOVES fish filletfish filletfish filletfish filletfish fillet
 
