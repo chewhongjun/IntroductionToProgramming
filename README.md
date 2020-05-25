@@ -417,7 +417,9 @@ if you have finished and are looking for more stuff to do youtube is your friend
     **
     *
 
-Additional Hard Question: Make a christmas tree 
+Additional Hard Question: 
+
+1. Make a christmas tree 
 
        *       
       ***      
@@ -426,6 +428,29 @@ Additional Hard Question: Make a christmas tree
    *********   
   ***********  
  ************* 
-***************
     \====/    
+
+2. Make a guessing game
+
+Guess a number from 1 and 10: 2
+You guessed wrongly
+ Try again!
+Guess a number from 1 and 10: 1
+You guessed wrongly
+ Try again!
+Guess a number from 1 and 10: 3
+You guessed wrongly
+ Try again!
+Guess a number from 1 and 10: 4
+You guessed wrongly
+ Try again!
+Guess a number from 1 and 10: 5
+You guessed wrongly
+ Try again!
+Guess a number from 1 and 10: 6
+You guessed wrongly
+ Try again!
+Guess a number from 1 and 10: 7
+Congrats! You guessed the right number
+
 ```
