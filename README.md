@@ -338,7 +338,8 @@ print(y)
 It's not easy to explain how it works, but looking at the example it will make more sense!
 
 
-While the condition variable is less than 10, we will print the condition variable out. After printing out the condition, we will add 1 to the current condition. 
+While the condition variable is less than 10, we will print the condition variable out.  
+After printing out the condition, we will add 1 to the current condition. 
 
 The condition is a "counter". We just want to count 1 for every iteration and eventually stop at our limit
 ```python
@@ -357,6 +358,8 @@ while condition < 10:
 8
 9
 ```
+
+
 
 **Lets see how can this be used in real life**  
 Assuming we had something built to detect weather   
@@ -380,7 +383,7 @@ Its raining close the windows
 
 ## Question of the week <a name="wk1"></a>
 *Your goal is not to finish all the questions, but to understand how does variables, math operators and the while loop works. Do not be pressured to do all of it!   
-I would rather you take your time and think about the questions than how to solve it :)  
+Take your time and think about the questions dont rush into finding the answers :)  
 if you have finished and are looking for more stuff to do youtube is your friend*
 ```
 1. Take in 10 user input(integers), and print the average on screen
