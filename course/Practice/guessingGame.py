@@ -1,6 +1,7 @@
 import random
 
-randNum= random.randrange(1,10)
+#randNum= random.randrange(1,10)
+randNum = 2
 
 userGuess = int(input("Guess a number from 1 and 10: "))
 
