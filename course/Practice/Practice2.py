@@ -10,4 +10,4 @@ while(userInput!='q'):                          #this loop breaks when the userI
 
     userInput=input("Enter User Input:")        #This asks for the user to enter again and the loop restarts till you hit the value 'q'
 
-print(str(countInput)+" Integers has been entered, with an sum value of "+str(sumInput))    #This is the print statement it is not complete if you can try to fix it!
+print(str(countInput)+" Integers has been entered, with an summation value of "+str(sumInput))    #This is the print statement it is not complete if you can try to fix it!
