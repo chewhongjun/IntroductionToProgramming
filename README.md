@@ -546,4 +546,42 @@ try the above statements with different operators such as
 * <=
 ----
 ### 2.7 if-else statement <a name="2.7"></a>
+__if-Else__ statement is an extension of the if block. It is the opposite of if, the else statement has to be after an if statement otherwise the program will not run.  
 
+* Example  
+```
+if it is sunny:  
+    Go for a run  
+else:  
+    watch netflix
+```
+
+### Lets try it out
+
+```python
+x = 5
+if (x%==0):
+    print("It is even")
+else:
+    print("It is odd")
+```
+
+The if else statement can used in combination with the for loop. If we want to we can iterate through a set of numbers and check if they are even or odd.
+
+```python
+for i in range(1,10):
+    if(i%2==0):
+        print("its even")
+    else:
+        print("its odd")
+```
+
+
+### Practice questions
+
+Lets try some hands on!  
+* iterate through numbers 1, 20. If the number is divisable by 3, print "it divides". Else we print "it does not"
+* iterate through the foodList and print the "FAV" when its your favourite good else print "NAH"
+
+
+---
