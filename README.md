@@ -453,3 +453,97 @@ Guess a number from 1 and 10: 7
 Congrats! You guessed the right number
 
 ```
+---
+### 2.5 for loop <a name="2.5"></a>
+
+
+Both for loops and while loops  work in a similiar manner, both allowing you to iterate. However, while loops are generally used for infinite actions where as for loops are for finitie with a predetermined length.
+
+
+While Loop
+- run __While__ its sunny.
+
+For Loop
+- run __For__ 4 rounds.
+
+
+
+A for loop can be used in  a few ways
+
+1. Iterating through a list:
+```
+shoppingList = ["Detergent","Toothpaste","Shower Gell","Ice Cream"]
+
+for item in shoppingList:
+    print(item)
+
+Detergent
+Toothpaste
+Shower Gell
+Ice Cream
+```
+
+2. Iterating through a generator function (range):
+```
+for num in range(1,10):
+    print(num)
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
+
+**Let's try it out!**
+
+* The goal is to print number 7 through 22.
+* Print a list of your favourite food items.
+
+---
+
+### 2.6 if statement <a name="2.6"></a>
+
+the **if** statement is one of the basic ways we can express logic
+
+* lets go through an example of how it can be used!  
+we have 2 algebric expressions x,y and if x is more than y, we will print ITSLARGER!!!!
+* we notice that nothing is printed out. Can we think why?
+```python
+x=20
+y=60
+
+if(x>y):
+    print("ITSLARGER!!!!")
+```
+* lets try again with a different set of number
+* It prints! why?
+```python
+x=300
+y=60
+
+if(x>y):
+    print("ITSLARGER!!!!")
+```
+
+### Additional thinking questions
+what do you think will happen when x, y have the same value?  
+and what will happen if we change the > to < 
+
+### Practice questions 
+
+try the above statements with different operators such as 
+
+* ==
+* !=
+* \>
+* \>=
+* <
+* <=
+----
+### 2.7 if-else statement <a name="2.7"></a>
+
