@@ -419,8 +419,7 @@ if you have finished and are looking for more stuff to do youtube is your friend
 
 Additional Hard Question: 
 
-1. Make a christmas tree 
-
+1. Make a christmas tree (The code i used implemented a for loop that we didnt cover on the first lesson)
        *       
       ***      
      *****     
